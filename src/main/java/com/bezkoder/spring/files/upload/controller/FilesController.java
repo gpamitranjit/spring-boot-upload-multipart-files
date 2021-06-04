@@ -22,7 +22,6 @@ import com.bezkoder.spring.files.upload.model.FileInfo;
 import com.bezkoder.spring.files.upload.service.FilesStorageService;
 
 @Controller
-@CrossOrigin("http://localhost:8081")
 public class FilesController {
 
   @Autowired
